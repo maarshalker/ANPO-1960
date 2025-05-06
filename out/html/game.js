@@ -16,7 +16,7 @@
     // Add your custom code here.
   };
 
-  var TITLE = "Between Two Worlds" + '_' + "Maarshalker";
+  var TITLE = "ANPO" + '_' + "Maarshalker";
 
   // the url is a link to game.json
   // test url: https://aucchen.github.io/social_democracy_mods/v0.1.json
