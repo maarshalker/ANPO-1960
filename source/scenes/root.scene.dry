@@ -326,16 +326,13 @@ Q.economic_records = [];
 
 // State of the government
 Q.president = "Hindenburg";
-// starting chancellor: Nobosuke Kishi
-Q.chancellor = "Kishi";
-Q.chancellor_party = 'Z';
-Q.spd_in_government = 0;
+// starting Prime_Minister: Nobosuke Kishi
+Q.prime_minister = "Kishi";
+Q.prime_minister_party = 'LDP';
 Q.ldp_in_government = 1;
 Q.ddp_in_government = 0;
 Q.dvp_in_government = 1;
-Q.dnvp_in_government = 1;
 Q.kpd_in_government = 0;
-Q.nsdap_in_government = 0;
 
 Q.in_right_coalition = 0;
 // Weimar coalition = SPD + Z + DDP
