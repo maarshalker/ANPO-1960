@@ -101,7 +101,7 @@ Q.moderate_plan_adopted = 0;
 // organizations
 
 // inter-party relations
-Q.z_relation = 50;
+Q.ldp_relation = 50;
 Q.kpd_relation = 25;
 Q.ddp_relation = 60;
 Q.dvp_relation = 35;
@@ -112,7 +112,7 @@ Q.NSDAP_relation = 0;
 Q.kpd_leader = "Thälmann";
 // alternative is the Conciliators as party leader
 Q.kpd_party_leader = "Thälmann";
-Q.z_leader = "Brüning";
+Q.ldp_leader = "Brüning";
 // party leader - can be Ludwig Kaas, Joseph Joos, or Adam Stegerwald after the 1958 December conference. Joos will be most friendly to the SPD.
 Q.ldp_party_leader = "Kishi";
 Q.nsdap_leader = "Hitler";
@@ -302,7 +302,7 @@ Q.other_r = 6;
 // diff from prev
 Q.old_ldp_r = 26;
 Q.old_kpd_r = 9;
-Q.old_z_r = 17;
+Q.old_ldp_r = 17;
 Q.old_ddp_r = 6;
 Q.old_dvp_r = 10;
 Q.old_dnvp_r = 20;
@@ -330,7 +330,7 @@ Q.president = "Hindenburg";
 Q.chancellor = "Kishi";
 Q.chancellor_party = 'Z';
 Q.spd_in_government = 0;
-Q.z_in_government = 1;
+Q.ldp_in_government = 1;
 Q.ddp_in_government = 0;
 Q.dvp_in_government = 1;
 Q.dnvp_in_government = 1;
@@ -541,7 +541,7 @@ Q.sender_advisor = 0; // Toni Sender
 Q.levi_advisor = 0; // Paul Levi
 Q.levi_dead = 0;
 Q.rosenfeld_advisor = 0; // Kurt Rosenfeld
-Q.seydewitz_advisor = 0; // Max Seydewitz
+Q.seydewitldp_advisor = 0; // Max Seydewitz
 
 // centrist alternate advisors
 Q.pfulf_advisor = 0; // Antonie Pfülf
@@ -550,7 +550,7 @@ Q.breitscheid_advisor = 0; // Rudolf Breitscheid
 // Reformist advisors
 Q.severing_advisor = 0; // Carl Severing
 Q.braun_advisor = 0; // Otto Braun
-Q.juchacz_advisor = 0; // Marie Juchacz
+Q.juchacldp_advisor = 0; // Marie Juchacz
 Q.baade_advisor = 0; // Fritz Baade
 
 // Labor advisors
@@ -587,11 +587,11 @@ For more information on the politics and government of the German Republic, see 
 - @1958_historical: Begin (historical mode)
 
 @1958_easy
-on-arrival: difficulty = -1; resources = 4; dues = 3; rb_strength = 2500; kpd_relation = 29; z_relation = 54; dvp_relation = 49; budget = 5;
+on-arrival: difficulty = -1; resources = 4; dues = 3; rb_strength = 2500; kpd_relation = 29; ldp_relation = 54; dvp_relation = 49; budget = 5;
 go-to: 1958_main
 
 @1958_hard
-on-arrival: difficulty = 1; resources = 0; dues = 1; rb_strength = 1000; reformist_dissent = 25; left_dissent = 30; labor_dissent = 25; center_dissent = 25; z_relation = 41; kpd_relation = 16; dvp_relation = 31; budget = 3;
+on-arrival: difficulty = 1; resources = 0; dues = 1; rb_strength = 1000; reformist_dissent = 25; left_dissent = 30; labor_dissent = 25; center_dissent = 25; ldp_relation = 41; kpd_relation = 16; dvp_relation = 31; budget = 3;
 go-to: 1958_main
 
 @1958_historical
@@ -606,7 +606,7 @@ Q.reformist_dissent = 25;
 Q.left_dissent = 30;
 Q.labor_dissent = 25;
 Q.center_dissent = 25;
-Q.z_relation = 41;
+Q.ldp_relation = 41;
 Q.kpd_relation = 16;
 Q.dvp_relation = 31;
 Q.budget = 2;
