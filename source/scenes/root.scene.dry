@@ -296,7 +296,7 @@ Q.catholics_other = 12;
 // They did not have a CDU/CSU-style relationship.
 Q.ldp_r = 57;
 Q.jsp_r = 32;
-Q.jcp_r = 10;
+Q.jcp_r = 2;
 Q.other_r = 6;
 
 // diff from prev
