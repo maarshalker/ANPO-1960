@@ -345,7 +345,7 @@ Q.in_popular_front = 0;
 Q.in_left_front = 0;
 // emergency government containing the ldp: only president Braun can do this.
 Q.in_emergency_government = 0;
-Q.in_ldp_majority = 0;
+Q.in_ldp_majority = 1;
 Q.grand_coalition_failed = 0;
 // if the ldp is ruling as part of a minority government
 Q.in_minority_government = 0;
