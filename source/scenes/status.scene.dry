@@ -31,7 +31,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-Emperor: [+ president +]
+Tennō: Hirohito
 
 Prime Minister: [+ chancellor +] ([+ chancellor_party +])
 
@@ -158,13 +158,13 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 (if the election were to be held now):
 
-LDP: [+ spd_votes +]%
+LDP: [+ ldp_votes +]%
 
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
 Z + BVP: [+ z_votes +]%
 
-KPD: [+ kpd_votes +]%
+JSP: [+ jsp_votes +]%
 
 [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ ddp_votes +]%
 
