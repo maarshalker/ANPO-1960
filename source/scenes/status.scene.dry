@@ -160,19 +160,13 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 LDP: [+ ldp_votes +]%
 
-[? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
-
-Z + BVP: [+ z_votes +]%
+[? if c_formed: C: [+ c_votes +]% ?]
 
 JSP: [+ jsp_votes +]%
 
-[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ ddp_votes +]%
+[? if dsp_formed: DSP: [+ dsp_votes +]% ?]
 
-DVP: [+ dvp_votes +]%
-
-DNVP: [+ dnvp_votes +]%
-
-NSDAP: [+ nsdap_votes +]%
+JCP: [+ dvp_votes +]%
 
 Others: [+ other_votes +]%
 
