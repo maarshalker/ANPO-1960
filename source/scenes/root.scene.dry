@@ -294,14 +294,10 @@ Q.catholics_other = 12;
 // note: the Z figures also include the BVP (Bavarian people's party)
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
-Q.ldp_r = 26;
-Q.kpd_r = 9;
-Q.z_r = 17;
-Q.ddp_r = 6;
-Q.dvp_r = 10;
-Q.dnvp_r = 20;
-Q.nsdap_r = 3;
-Q.other_r = 9;
+Q.ldp_r = 57;
+Q.jsp_r = 32;
+Q.jcp_r = 10;
+Q.other_r = 6;
 
 // diff from prev
 Q.old_ldp_r = 26;
