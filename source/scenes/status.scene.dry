@@ -31,7 +31,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-Tennō: {!<span class="tooltip-text" title="Shōwa-tennō">Hirohito</span>!}:
+Tennō: {!<span class="tooltip-text" title="Shōwa-tennō">Hirohito</span>!}
 
 Prime Minister: [+ chancellor +] ([+ chancellor_party +])
 
