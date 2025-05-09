@@ -38,10 +38,10 @@ Prime Minister: [+ prime_minister +] ([+ prime_minister_party +])
 House of Representatives composition:
 
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Liberal Democratic Party">LDP</span>!}: [+ spd_r +]%
+{!<span class="tooltip-text" title="Liberal Democratic Party">LDP</span>!}: [+ ldp_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
-{!<span class="tooltip-text" title="Japan Socialist Party">JSP</span>!}: [+ JSP +]%
-{!<span class="tooltip-text" title="Japanese Communist Party">JCP</span>!}: [+ dvp_r +]%
+{!<span class="tooltip-text" title="Japan Socialist Party">JSP</span>!}: [+ jsp_r +]%
+{!<span class="tooltip-text" title="Japanese Communist Party">JCP</span>!}: [+ jcp_r +]%
 Others: [+ other_r +]%
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
@@ -151,9 +151,7 @@ LDP: [+ ldp_votes +]%
 
 JSP: [+ jsp_votes +]%
 
-[? if dsp_formed: DSP: [+ dsp_votes +]% ?]
-
-JCP: [+ dvp_votes +]%
+JCP: [+ jcp_votes +]%
 
 Others: [+ other_votes +]%
 
