@@ -20,8 +20,8 @@ if (Q.economic_growth) {
 
 Resources available: [+ resources +]
 
-LDP position: [? if ldp_toleration : toleration ?][? if ldp_in_government : in government - ?][? if ldp_toleration == 0 and ldp_in_government == 0 and ldp_caretaker == 0 : opposition ?][? if ldp_caretaker : caretaker government ?]
-[? if in_weimar_coalition and ldp_in_government: Weimar Coalition ?][? if in_grand_coalition and ldp_in_government: Grand Coalition ?][? if in_popular_front and ldp_in_government: Popular Front ?][? if in_left_front and ldp_in_government: Left Front ?][? if in_ldp_majority and ldp_in_government: LDP Majority ?][? if in_minority_government and ldp_in_government: minority government ?][? if in_emergency_government and ldp_in_government: emergency government ?]
+LDP position: [? if ldp_in_government : in government - ?][? if ldp_toleration == 0 and ldp_in_government == 0 and ldp_caretaker == 0 : opposition ?][? if ldp_caretaker : caretaker government ?]
+[? if in_grand_coalition and ldp_in_government: Grand Coalition ?][? if in_popular_front and ldp_in_government: Popular Front ?][? if in_ldp_majority and ldp_in_government: LDP Majority ?][? if in_minority_government and ldp_in_government: minority government ?][? if in_emergency_government and ldp_in_government: emergency government ?]
 
 [? if ldp_in_government and not in_ldp_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
 
@@ -31,7 +31,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-{!<span class="tooltip-text" title="lit. 'Son of Heaven'">Tennō</span>!}: {!<span class="tooltip-text" title="Shōwa-tennō">Hirohito</span>!}
+{!<span class="tooltip-text" title="lit. 'Son of Heaven'">Tennō</span>!}: {!<span class="tooltip-text" title="The Emperor shall be the symbol of the State and of the unity of the People, deriving his position from the will of the people with whom resides sovereign power.">Hirohito</span>!}
 
 Prime Minister: [+ prime_minister +] ([+ prime_minister_party +])
 
