@@ -31,7 +31,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-{!<span class="tooltip-text" title="lit. 'Son of Heaven'">Tennō</span>!}: {!<span class="tooltip-text" title="The Emperor shall be the symbol of the State and of the unity of the People, deriving his position from the will of the people with whom resides sovereign power.">Hirohito</span>!}
+{!<span class="tooltip-text" title="The Emperor shall be the symbol of the State and of the unity of the People, deriving his position from the will of the people with whom resides sovereign power.">Tennō</span>!}: {!<span class="tooltip-text" title="something about showa">Hirohito</span>!}
 
 Prime Minister: [+ prime_minister +] ([+ prime_minister_party +])
 
