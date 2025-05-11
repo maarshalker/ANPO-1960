@@ -287,12 +287,8 @@ Q.catholics_nsdap = 0;
 Q.catholics_other = 12;
 
 
-// Current Reichstag composition
-// % of Reichstag in Jan 1958
-// source: wikipedia
-// note: the Z figures also include the BVP (Bavarian people's party)
-// since they were ideologically similar, but they were separate parties.
-// They did not have a CDU/CSU-style relationship.
+// Current HoR composition
+// % of HoR in Jan 1958
 Q.ldp_r = 57;
 Q.jsp_r = 32;
 Q.jcp_r = 2;
