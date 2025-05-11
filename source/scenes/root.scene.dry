@@ -289,10 +289,10 @@ Q.catholics_other = 12;
 
 // Current HoR composition
 // % of HoR in Jan 1958
-Q.ldp_r = 57;
-Q.jsp_r = 32;
-Q.jcp_r = 2;
-Q.other_r = 6;
+Q.ldp_r = 63.18;
+Q.jsp_r = 30.18;
+Q.jcp_r = 1.98;
+Q.other_r = 5.63;
 
 // diff from prev
 Q.old_ldp_r = 26;
