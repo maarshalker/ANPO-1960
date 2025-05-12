@@ -69,9 +69,9 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="Japanese Communist Party">JCP</span>!}: [+ jcp_relation : relationships +]
 
-{!<span class="tooltip-text" title="German People's Party">placeholder DS</span>!}: [+ dvp_relation : relationships +]
+{!<span class="tooltip-text" title="German People's Party">placeholder DSP</span>!}: [+ dsp_relation : relationships +]
 
-{!<span class="tooltip-text" title="Communist Party of Germany">placeholder NLC</span>!}: [+ kpd_relation : relationships +]
+{!<span class="tooltip-text" title="Communist Party of Germany">placeholder NLC</span>!}: [+ nlc_relation : relationships +]
 
 
 = Internal Factions of the ldp
