@@ -101,8 +101,8 @@ Q.moderate_plan_adopted = 0;
 // organizations
 
 // inter-party relations
-Q.jsp_relation = 25;
-Q.jcp_relation = 10;
+Q.jsp_relation = 15;
+Q.jcp_relation = 0;
 Q.dsp_relation = 30;
 Q.nlc_relation = 35;
 
